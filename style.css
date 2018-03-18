@@ -13,9 +13,17 @@
 	border-bottom-right-radius: 7px;
 	border-bottom-left-radius: 7px;
 }
-#space{
-margin-top: 60em;
+#add{
+	background-color: lightgray;
+	margin:1em 15%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
 }
+#add h2{
+	padding-bottom: .5em;
+}
+
 #footer{
 	text-align: right;
 	height: 20px;

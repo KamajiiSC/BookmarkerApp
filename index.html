@@ -4,13 +4,29 @@
 	<title>Bookmarks</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	<div class="page-wrap">
-		<h1 id="head">Bookmarks</h1>
-		<div id="space"></div>
-	</div>
+	<h1 id="head">Bookmarks</h1>
+	<form id="add">
+		<h2>Add Bookmark</h2>
+		
+		<div class="entry">
+			<label>Site title</label>
+			<input id="title" type="text">
+		</div>
+		<br/>
+		
+		<div class="entry">
+			<label>Site url</label>
+			<input id="url" type="text">
+		</div>
+		<br/>
+		
+		<input type ="submit" value="Submit">
+	</form>
 	
-	<div id="footer"> <a href="#">Back to top</a> </footer>
+	<div id="footer"><a href="#">Back to top</a> </footer>
 </body>
+
 <script src="js/main.js"></script>
 </html>
