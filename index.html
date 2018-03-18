@@ -3,30 +3,20 @@
 <head>
 	<title>Bookmarks</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/main.js"></script>
 </head>
 
 <body>
 	<h1 id="head">Bookmarks</h1>
-	<form id="add">
+	<div id="add">
 		<h2>Add Bookmark</h2>
-		
-		<div class="entry">
-			<label>Site title</label>
-			<input id="title" type="text">
-		</div>
-		<br/>
-		
-		<div class="entry">
-			<label>Site url</label>
-			<input id="url" type="text">
-		</div>
-		<br/>
-		
-		<input type ="submit" value="Submit">
-	</form>
+		<form name="bookmark" method="post">
+			Site title <input name="title" type="text" required>
+			Site url <input name="url" type="text" required>
+			<input type ="submit" value="Submit">
+		</form>
+	</div>
 	
 	<div id="footer"><a href="#">Back to top</a> </footer>
 </body>
-
-<script src="js/main.js"></script>
 </html>
