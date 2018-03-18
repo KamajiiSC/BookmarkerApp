@@ -13,3 +13,14 @@
 	border-bottom-right-radius: 7px;
 	border-bottom-left-radius: 7px;
 }
+#space{
+margin-top: 60em;
+}
+#footer{
+	text-align: right;
+	height: 20px;
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+}
